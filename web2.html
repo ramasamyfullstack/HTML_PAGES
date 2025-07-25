@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beautiful Single Page Site</title>
+<style>
+  html {
+    scroll-behavior: smooth; /* Smooth scroll */
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  header {
+    background: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  nav {
+    background: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 12px 0;
+  }
+  nav a:hover {
+    background: #555;
+  }
+  section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .back-to-top {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .back-to-top a {
+    font-size: 0.9em;
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  .portfolio-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio-items img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header id="top">
+  <h1>My Beautiful One Page Website</h1>
+  <p>Scroll down to explore our world</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a creative team passionate about design and technology.</p>
+  <img src="https://dummyjson.com/image/400x200/008080/ffffff?text=Hello+Peter!&fontSize=16" alt="About" class="section-img">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ligula at ipsum ultrices volutpat. Vivamus eget dignissim purus. Pellentesque vel orci eu justo luctus dapibus.</p>
+  <div class="back-to-top"><a href="#top">↑ Back to top</a></div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <img src="https://dummyjson.com/image/400x200/282828?fontFamily=pacifico&text=I+am+a+pacifico+font" alt="Services" class="section-img">
+  <ul>
+    <li>Modern Web Design</li>
+    <li>App Development</li>
+    <li>SEO and Digital Marketing</li>
+    <li>Brand Strategy</li>
+  </ul>
+  <p>Nam euismod magna in sem gravida, in interdum lacus ultricies. Vivamus ut purus ac magna tincidunt feugiat. </p>
+  <div class="back-to-top"><a href="#top">↑ Back to top</a></div>
+</section>
+
+<section id="portfolio">
+  <h2>Our Portfolio</h2>
+  <p>See some of our favorite works below:</p>
+  <div class="portfolio-items">
+    <img src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bc01c83c3da0425e9baa6c7a9204af81" alt="Project 1">
+    <img src="https://images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" alt="Project 2">
+    <img src="https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg" alt="Project 3">
+    <img src="https://cdn.pixabay.com/video/2015/08/08/125-135736646_large.jpg" alt="Project 4">
+  </div>
+  <p style="text-align:center; margin-top: 20px;">Every project tells a story of innovation and creativity.</p>
+  <div class="back-to-top"><a href="#top">↑ Back to top</a></div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <img src="https://cdn.pixabay.com/video/2015/08/08/125-135736646_tiny.jpg" alt="Contact" class="section-img">
+  <p>Email: hello@example.com</p>
+  <p>Phone: +1 234 567 890</p>
+  <p>Location: 123 Creative Street, Imagination City</p>
+  <div class="back-to-top"><a href="#top">↑ Back to top</a></div>
+</section>
+
+<footer>
+  <p>&copy; 2025 My Beautiful One Page Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
